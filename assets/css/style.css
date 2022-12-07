@@ -20,11 +20,12 @@ body {
     font-size: 48px;
 }
 
-/*For the company name "Horiseon" make the text "seo" gray */
+/* Make the inside text "seo" gray * for the comapny name/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* used a nav element instead of using div */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -51,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* used hero element to include an oversized image at the top of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,20 +88,19 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* consolidate to one class
-*/
+
+/* consolidate to one class for the benefit options*/
 .benefit-options {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-
+/* consolidate to one class for the benefit options heading */
 .benefit-options h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* consolidate to one class for the benefit options image */
 .benefit-options img {
     display: block;
     margin: 10px auto;
@@ -115,12 +116,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* combined image height*/
+/* combined image height using class services*/
 .services img {
     max-height: 200px;
 }
 
-/* combined using class services*/
+/* combined heading using class services*/
 .services h2 {
     margin-bottom: 20px;
     font-size: 36px;
